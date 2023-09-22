@@ -1,11 +1,11 @@
-.container {
+.container, .container1 {
   display: flex;
   flex-direction: row; 
   justify-content: space-between;
 }
 
-.box1 {
-  border: 2px solid rgba(0, 0, 0, 0.1);;
+.box1, .box2, .box3 {
+  border: 2px solid rgba(0, 0, 0, 0.1);
   margin: 150px;
   overflow: auto;
   height: 840px;
@@ -16,16 +16,14 @@
   padding-left: 30px;
 }
 
-.boxTitle1 {
+.boxTitle1, .boxTitle2, .boxTitle3 {
   position: absolute;
-  top: -250px;
-  margin-left: 185px;
-  margin-top: 350px;
+  margin: 100px;
   font-family: 'B1';
   font-size: 200%;
 }
 
-.button {
+.button1, .button2, .button3 {
   border: none;
   padding: 15px 20px;
   cursor: pointer;
@@ -35,7 +33,19 @@
   background-color: transparent;
 }
 
-.buttonContainer {
+.buttonContainer1, .buttonContainer2, .buttonContainer3 {
   display: flex;
   justify-content: center; /* 가운데 정렬 */
+}
+
+.boxTitle1 {
+  margin-left: 195px;
+}
+
+.boxTitle2 {
+  margin-left: 738px;
+}
+
+.boxTitle3 {
+  margin-left: 1247px;
 }
