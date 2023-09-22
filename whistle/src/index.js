@@ -10,7 +10,6 @@ root.render(
   <React.StrictMode>
     <title>whistle!</title>
     <Home />
-    <Board />
   </React.StrictMode>
 );
 
